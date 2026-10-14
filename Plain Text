@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luque IA Solutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+    background:linear-gradient(135deg,#0f172a,#1e293b,#2563eb);
+}
+
+.hero{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#60a5fa;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    background:#3b82f6;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#2563eb;
+    transform:translateY(-3px);
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:60px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#60a5fa;
+}
+
+.pricing{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.plan{
+    background:#1e293b;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.plan h3{
+    color:#60a5fa;
+    margin-bottom:15px;
+}
+
+.price{
+    font-size:3rem;
+    font-weight:bold;
+    margin:20px 0;
+}
+
+.plan ul{
+    list-style:none;
+    margin:25px 0;
+}
+
+.plan li{
+    margin:12px 0;
+}
+
+.about{
+    background:#111827;
+    text-align:center;
+}
+
+.about p{
+    max-width:800px;
+    margin:auto;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact-box{
+    max-width:800px;
+    margin:auto;
+}
+
+.contact a{
+    color:#60a5fa;
+    text-decoration:none;
+}
+
+footer{
+    background:#020617;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.6rem;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>Luque <span>IA Solutions</span></h1>
+
+<p>
+Automatizamos hoy el trabajo de mañana.
+Ayudamos a empresas y autónomos a ahorrar tiempo,
+reducir costes y aumentar su productividad mediante Inteligencia Artificial.
+</p>
+
+<a href="#contacto" class="btn">
+Solicitar demostración gratuita
+</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">Nuestros Servicios</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🤖 Asistentes IA</h3>
+<p>
+Chatbots inteligentes disponibles 24/7 para atender clientes y responder consultas automáticamente.
+</p>
+</div>
+
+<div class="card">
+<h3>📧 Automatización de Correos</h3>
+<p>
+Gestión inteligente de emails, respuestas automáticas y organización eficiente.
+</p>
+</div>
+
+<div class="card">
+<h3>📄 Generación de Documentos</h3>
+<p>
+Creación automática de presupuestos, informes, contratos y documentación empresarial.
+</p>
+</div>
+
+<div class="card">
+<h3>💬 WhatsApp con IA</h3>
+<p>
+Atención automática y captación de clientes a través de WhatsApp Business.
+</p>
+</div>
+
+<div class="card">
+<h3>⚙️ Automatización de Procesos</h3>
+<p>
+Reducción de tareas repetitivas para mejorar la productividad empresarial.
+</p>
+</div>
+
+<div class="card">
+<h3>☁️ Microsoft 365</h3>
+<p>
+Integración de IA con Outlook, Teams, Word, Excel y herramientas Microsoft.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Planes</h2>
+
+<div class="pricing">
+
+<div class="plan">
+<h3>Plan Básico</h3>
+<div class="price">299€</div>
+
+<ul>
+<li>✅ Asistente IA básico</li>
+<li>✅ Configuración inicial</li>
+<li>✅ Formación 1h</li>
+<li>✅ Soporte 30 días</li>
+</ul>
+
+<a href="#contacto" class="btn">Contratar</a>
+
+</div>
+
+<div class="plan">
+<h3>Plan Profesional</h3>
+<div class="price">599€</div>
+
+<ul>
+<li>✅ IA avanzada</li>
+<li>✅ Automatización correo</li>
+<li>✅ WhatsApp IA</li>
+<li>✅ Soporte 60 días</li>
+</ul>
+
+<a href="#contacto" class="btn">Contratar</a>
+
+</div>
+
+<div class="plan">
+<h3>Plan Empresa</h3>
+<div class="price">999€+</div>
+
+<ul>
+<li>✅ Solución personalizada</li>
+<li>✅ Automatizaciones avanzadas</li>
+<li>✅ Microsoft 365</li>
+<li>✅ Soporte continuo</li>
+</ul>
+
+<a href="#contacto" class="btn">Contratar</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about">
+
+<h2 class="section-title">Sobre mí</h2>
+
+<p>
+Soy Ángel Luque Casañas, especialista en soporte tecnológico,
+automatización e Inteligencia Artificial.
+Mi objetivo es ayudar a empresas y profesionales a trabajar de forma más eficiente mediante soluciones modernas y accesibles.
+</p>
+
+</section>
+
+<section id="contacto" class="contact">
+
+<h2 class="section-title">Contacto</h2>
+
+<div class="contact-box">
+
+<p>
+¿Quieres una demostración gratuita?
+</p>
+
+<br>
+
+<p>
+📧 contacto@luqueiasolutions.com
+</p>
+
+<p>
+📱 +34 XXX XXX XXX
+</p>
+
+<p>
+📍 Madrid, España
+</p>
+
+<br>
+
+<a class="btn" href="mailto:contacto@luqueiasolutions.com">
+Enviar Email
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Luque IA Solutions | Todos los derechos reservados
+</p>
+
+</footer>
+
+</body>
+</html>
